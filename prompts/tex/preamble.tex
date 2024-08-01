@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper,nofoldmark]{leaflet}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{nopageno}
+\usepackage[svgnames]{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{setspace}
+
+\usepackage{fontspec}
+\setmainfont{Noto Serif CJK HK} 
+\setCJKmainfont{Noto Serif CJK HK}
+
+\usepackage{ruby}
+\renewcommand{\rubysize}{0.35}
+\newfontfamily{\mono}{Noto Mono}
+\newcommand{\C}[2]{\renewcommand\rubysep{-8}{\mono \ruby{#1}{\textsf{#2}}}}
+
+\usepackage{enumitem}
+\newcommand{\largeitem}[1]{\item \raggedright \LARGE{#1}}
+
+% TODO loop this 
+\CutLine*[-]{1}
+\CutLine*[-]{2}
+\CutLine*[-]{3}
+\CutLine*[-]{4}
+\CutLine*[-]{5}
+\CutLine*[-]{6}
