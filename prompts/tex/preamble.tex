@@ -18,12 +18,19 @@
 \setCJKmainfont{Noto Serif CJK HK}
 
 \usepackage{ruby}
-\renewcommand{\rubysize}{0.35}
+\renewcommand{\rubysize}{0.40}
 \newfontfamily{\mono}{Noto Mono}
 \newcommand{\C}[2]{\renewcommand\rubysep{-8}{\mono \ruby{#1}{\textsf{#2}}}}
 
 \usepackage{enumitem}
-\newcommand{\largeitem}[1]{\item \raggedright \LARGE{#1}}
+\newcommand{\largeitem}[1]{\item \raggedright \Large{#1}}
+
+\usepackage{titlesec}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\centering}
+  {}
+  {0em}
+  {}
 
 % TODO loop this 
 \CutLine*[-]{1}
