@@ -2,7 +2,7 @@
 
 TEX_DIR="./tex"
 OUTPUT_DIR="../publish"
-FILES=("beginner.tex" "intermediate.tex")
+FILES=("beginner-tc.tex" "intermediate-tc.tex")
 
 cd "$TEX_DIR" || exit
 
