@@ -2,7 +2,7 @@
 
 TEX_DIR="./tex"
 OUTPUT_DIR="../publish"
-FILES=("beginner-tc.tex" "intermediate-tc.tex")
+FILES=("beginner-tc.tex" "beginner-sc.tex" "intermediate-tc.tex" "intermediate-sc.tex")
 
 cd "$TEX_DIR" || exit
 
@@ -12,6 +12,7 @@ for FILE in "${FILES[@]}"; do
 done
 
 mv *.pdf "$OUTPUT_DIR"
+rsync $OUTPUT_DIR/*.pdf ~/my-files/todo/meetup
 rm *.log *.out *.bak* *.aux
 
 echo "Done."
