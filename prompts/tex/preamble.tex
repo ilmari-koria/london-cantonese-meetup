@@ -23,7 +23,8 @@
 \newcommand{\C}[2]{\renewcommand\rubysep{-8}{\mono \ruby{#1}{\textsf{#2}}}}
 
 \usepackage{enumitem}
-\newcommand{\largeitem}[1]{\item \raggedright \Large{#1}}
+\newcommand{\largeitem}[1]{\item \raggedright \large{#1}}
+\newcommand{\smallitem}[1]{\item \vspace{0em}\footnotesize\begin{spacing}{1}{#1}\end{spacing}}
 
 \usepackage{titlesec}
 \titleformat{\subsection}
