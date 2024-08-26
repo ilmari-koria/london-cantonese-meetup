@@ -24,7 +24,27 @@
 
 \usepackage{enumitem}
 \newcommand{\largeitem}[1]{\item \raggedright \large{#1}}
-\newcommand{\smallitem}[1]{\item \vspace{0em}\footnotesize\begin{spacing}{1}{#1}\end{spacing}}
+\newcommand{\extralargeitem}[1]{\item \raggedright \Large{#1}}
+\newcommand{\smallitem}[1]{\item \footnotesize\begin{spacing}{1}{#1}\end{spacing}}
+
+\newlist{enumerate-with-translation}{enumerate}{1}
+\setlist[enumerate-with-translation,1]{label=,  
+                                   left=0,         
+                                   labelsep=0,     
+                                   itemsep=0,      
+                                   topsep=0,       
+                                   bottomsep=0,    
+                                   }
+
+\newlist{enumerate-no-translation}{enumerate}{1}
+\setlist[enumerate-no-translation,1]{label=,  
+                                   left=0,         
+                                   labelsep=0,     
+                                   itemsep=2em,      
+                                   topsep=0,       
+                                   bottomsep=0,    
+                                   }
+
 
 \usepackage{titlesec}
 \titleformat{\subsection}
