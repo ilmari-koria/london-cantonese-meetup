@@ -8,10 +8,12 @@ SAXON="../xsl/saxon/saxon-he-12.4.jar"
 
 XML_PROMPTS="./xml/prompts.xml"
 XSL_CSV="../xsl/convert-to-csv.xsl"
+XSL_HTML="../xsl/generate-html-prompts.xsl"
 TEX_FILES=("beginner-tc.tex" "intermediate-tc.tex" "beginner-tc-english.tex" "intermediate-tc-english.tex")
 
 # generate csv
-java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_CSV" 
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_CSV"
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_HTML" -o:"html/out.html"
 
 # cd "$TEX_DIR" || exit
 
