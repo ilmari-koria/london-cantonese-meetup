@@ -12,6 +12,7 @@
   <xsl:template match="/">
     <html>
       <h1>Cantonese Language Meetup Prompts (HTML Test)</h1>
+      <p><xsl:value-of select="format-dateTime(current-dateTime(), '[Y0001]-[M01]-[D01] [H01]:[m01]:[s01]')"/></p>
       <h2>Beginner</h2>
       <table>
         <xsl:for-each select="prompts/beginner/entry/cantonese">
@@ -23,7 +24,7 @@
               <audio controls="controls">
                 <source>
                   <xsl:attribute name="src">
-                    <xsl:text>../audio/</xsl:text>
+                    <xsl:text>./prompts/audio/</xsl:text>
                     <xsl:value-of select="../audio"/> 
                   </xsl:attribute>
                   <xsl:attribute name="type">
@@ -37,7 +38,7 @@
               <audio controls="controls">
                 <source>
                   <xsl:attribute name="src">
-                    <xsl:text>../audio/</xsl:text>
+                    <xsl:text>./prompts/audio/</xsl:text>
                     <xsl:value-of select="../audio-alt"/> 
                   </xsl:attribute>
                   <xsl:attribute name="type">
@@ -61,7 +62,7 @@
               <audio controls="controls">
                 <source>
                   <xsl:attribute name="src">
-                    <xsl:text>../audio/</xsl:text>
+                    <xsl:text>./prompts/audio/</xsl:text>
                     <xsl:value-of select="../audio"/> 
                   </xsl:attribute>
                   <xsl:attribute name="type">
@@ -75,7 +76,7 @@
               <audio controls="controls">
                 <source>
                   <xsl:attribute name="src">
-                    <xsl:text>../audio/</xsl:text>
+                    <xsl:text>./prompts/audio/</xsl:text>
                     <xsl:value-of select="../audio-alt"/> 
                   </xsl:attribute>
                   <xsl:attribute name="type">
