@@ -11,7 +11,7 @@
 
   <xsl:template match="/">
     <xsl:result-document href="{$dir}/cantonese-prompts-beginner.csv">
-      <xsl:text>cantonese,jyutpinyin,translation-en,audio</xsl:text>
+      <xsl:text>cantonese,jyutpinyin,translation-en,audio,audio-alt</xsl:text>
       <xsl:text>&#xa;</xsl:text>
       <xsl:for-each select="prompts/beginner/entry/cantonese">
         <xsl:value-of select="."/>
@@ -21,6 +21,8 @@
         <xsl:value-of select="../translation-en"/>
         <xsl:text>,</xsl:text>
         <xsl:value-of select="../audio"/>
+        <xsl:text>,</xsl:text>
+        <xsl:value-of select="../audio-alt"/>
         <xsl:text>&#xa;</xsl:text>
       </xsl:for-each>
     </xsl:result-document>
@@ -35,6 +37,8 @@
         <xsl:value-of select="../translation-en"/>
         <xsl:text>,</xsl:text>
         <xsl:value-of select="../audio"/>
+        <xsl:text>,</xsl:text>
+        <xsl:value-of select="../audio-alt"/>
         <xsl:text>&#xa;</xsl:text>
       </xsl:for-each>
     </xsl:result-document>
