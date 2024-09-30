@@ -1,18 +1,27 @@
 #!/bin/bash
 
-TEX_DIR="./tex"
-OUTPUT_DIR="../publish"
-FILES=("beginner-tc.tex" "intermediate-tc.tex" "beginner-tc-english.tex" "intermediate-tc-english.tex")
+DIR_ANKI="../anki"
+DIR_TEX="./tex"
+DIR_PDF_OUTPUT="../publish"
 
-cd "$TEX_DIR" || exit
+SAXON="../xsl/saxon/saxon-he-12.4.jar"
 
-for FILE in "${FILES[@]}"; do
-    latexindent -w "$FILE"
-    xelatex -interaction=nonstopmode "$FILE"
-done
+XML_PROMPTS="./xml/prompts.xml"
+XSL_CSV="../xsl/convert-to-csv.xsl"
+TEX_FILES=("beginner-tc.tex" "intermediate-tc.tex" "beginner-tc-english.tex" "intermediate-tc-english.tex")
 
-mv *.pdf "$OUTPUT_DIR"
-rsync $OUTPUT_DIR/*.pdf ~/my-files/todo/meetup
-rm *.log *.out *.bak* *.aux
+# generate csv
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_CSV" 
+
+# cd "$TEX_DIR" || exit
+
+# for FILE in "${FILES[@]}"; do
+#     latexindent -w "$FILE"
+#     xelatex -interaction=nonstopmode "$FILE"
+# done
+
+# mv *.pdf "$OUTPUT_DIR"
+# rsync $OUTPUT_DIR/*.pdf ~/my-files/todo/meetup
+# rm *.log *.out *.bak* *.aux
 
 echo "Done."
