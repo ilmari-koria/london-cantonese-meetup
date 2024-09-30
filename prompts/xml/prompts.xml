@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<prompts>
+  <beginner>
+    <entry>
+      <cantonese>你啲中文學成點呀？</cantonese>
+      <jyutpinyin>nei5,di1,zung1,man4,hok6,sing4,dim2,aa3</jyutpinyin>
+      <translation-en>How is your Chinese learning going?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你想食法國嘢，日本嘢定係中國嘢？</cantonese>
+      <jyutpinyin>nei5,soeng2,sik6,faat3,gwok3,je5,jat6,bun2,je5,ding6,hai6,zung1,gwok3,je5</jyutpinyin>
+      <translation-en>Do you want to eat French, Japanese, or Chinese food?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你叫咩名？你叫乜嘢名呀？</cantonese>
+      <jyutpinyin>nei5,giu3,me1,meng2,nei5,giu3,mat1,je5,meng2,aa3</jyutpinyin>
+      <translation-en>What's your name?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你點呀？ 你最近幾好嗎？</cantonese>
+      <jyutpinyin>nei5,dim2,aa3,nei5,zeoi3,gan6,gei2,hou2,maa1</jyutpinyin>
+      <translation-en>How are you? How have you been lately?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你喺邊度住呀？ 你住喺倫敦邊到㗎？</cantonese>
+      <jyutpinyin>nei5,hai2,bin1,dou6,zyu6,aa3,nei5,zyu6,hai2,leon4,deon1,bin1,dou6,gaa3</jyutpinyin>
+      <translation-en>Where do you live? Where in London do you live?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你識唔識講英文㗎？ 你識講廣東話咩？</cantonese>
+      <jyutpinyin>nei5,sik1,m4,sik1,gong2,jing1,man4,gaa3,nei5,sik1,gong2,gwong2,dung1,waa2,me1</jyutpinyin>
+      <translation-en>Do you speak English? Can you speak Cantonese?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>夏天過成點呀？</cantonese>
+      <jyutpinyin>haa6,tin1,gwo3,sing4,dim2,aa3</jyutpinyin>
+      <translation-en>How was your summer?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>今日幾多號？今日星期幾？</cantonese>
+      <jyutpinyin>gam1,jat6,gei2,do1,hou6,gam1,jat6,sing1,kei4,gei2</jyutpinyin>
+      <translation-en>What's the date today? What day of the week is it?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>而家幾點鐘呀？ 而家幾多點呀？ 你知唔知而家幾多點呀？</cantonese>
+      <jyutpinyin>ji4,gaa1,gei2,dim2,zung1,aa3,ji4,gaa1,gei2,do1,dim2,aa3,nei5,zi1,m4,zi1,ji4,gaa1,gei2,do1,dim2,aa3</jyutpinyin>
+      <translation-en>What time is it now? Do you know what time it is?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你作咩嘢架？</cantonese>
+      <jyutpinyin>nei5,zok3,me1,je5,gaa3</jyutpinyin>
+      <translation-en>What are you doing?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你喺倫敦住咗幾耐呀？</cantonese>
+      <jyutpinyin>nei5,hai2,leon4,deon1,zyu6,zo2,gei2,noi6,aa3</jyutpinyin>
+      <translation-en>How long have you been living in London?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>返工返成點呀？ 學得點呀？</cantonese>
+      <jyutpinyin>faan1,gung1,faan1,sing4,dim2,aa3,hok6,dak1,dim2,aa3</jyutpinyin>
+      <translation-en>How is work? How is school?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你有冇去過中國呀？</cantonese>
+      <jyutpinyin>nei5,jau5,mou5,heoi3,gwo3,zung1,gwok3,aa3</jyutpinyin>
+      <translation-en>Have you ever been to China?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你鍾唔鍾意食中國嘢㗎？</cantonese>
+      <jyutpinyin>nei5,zung1,m4,zung1,ji3,sik6,zung1,gwok3,je5,gaa3</jyutpinyin>
+      <translation-en>Do you like eating Chinese food?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你最近忙唔忙呀？</cantonese>
+      <jyutpinyin>nei5,zeoi3,gan6,mong4,m4,mong4,aa3</jyutpinyin>
+      <translation-en>Have you been busy recently?</translation-en>
+    </entry>
+    <entry>
+      <cantonese>你識唔識讀呢個漢字呀？</cantonese>
+      <jyutpinyin>nei5,sik1,m4,sik1,duk6,ni1,go3,hon3,zi6,aa3</jyutpinyin>
+      <translation-en>Can you read this Chinese character?</translation-en>
+    </entry>
+  </beginner>
+</prompts>
