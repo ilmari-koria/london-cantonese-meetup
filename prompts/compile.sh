@@ -13,7 +13,7 @@ TEX_FILES=("beginner-tc.tex" "intermediate-tc.tex" "beginner-tc-english.tex" "in
 
 # generate csv
 java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_CSV"
-java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_HTML" -o:"html/out.html"
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_HTML" -o:"html/index.html"
 
 # cd "$TEX_DIR" || exit
 

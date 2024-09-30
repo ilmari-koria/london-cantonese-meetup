@@ -8,11 +8,10 @@
               omit-xml-declaration="yes" />
 
   <xsl:variable name="dir" select="'../anki'" />
-  <xsl:variable name="audio"><xsl:value-of select="../audio-alt"/></xsl:variable>
 
   <xsl:template match="/">
     <html>
-      <h1>Cantonese Language Meetup Prompts</h1>
+      <h1>Cantonese Language Meetup Prompts (HTML Test)</h1>
       <h2>Beginner</h2>
       <table>
         <xsl:for-each select="prompts/beginner/entry/cantonese">
@@ -20,8 +19,34 @@
             <td><xsl:value-of select="."/></td>
             <td><xsl:value-of select="../jyutpinyin"/></td>
             <td><xsl:value-of select="../translation-en"/></td>
-            <td><xsl:value-of select="../audio"/></td>
-            <td><audio src="../audio/{$audio}" type="audio/mpeg">Your browser does not support the audio element.</audio></td> 
+            <td>
+              <audio controls="controls">
+                <source>
+                  <xsl:attribute name="src">
+                    <xsl:text>../audio/</xsl:text>
+                    <xsl:value-of select="../audio"/> 
+                  </xsl:attribute>
+                  <xsl:attribute name="type">
+                    <xsl:text>audio/mpeg</xsl:text>
+                  </xsl:attribute>
+                  <xsl:text>Your browser does not support the audio element.</xsl:text>
+                </source>
+              </audio>
+            </td>
+            <td>
+              <audio controls="controls">
+                <source>
+                  <xsl:attribute name="src">
+                    <xsl:text>../audio/</xsl:text>
+                    <xsl:value-of select="../audio-alt"/> 
+                  </xsl:attribute>
+                  <xsl:attribute name="type">
+                    <xsl:text>audio/mpeg</xsl:text>
+                  </xsl:attribute>
+                  <xsl:text>Your browser does not support the audio element.</xsl:text>
+                </source>
+              </audio>
+            </td> 
           </tr>
         </xsl:for-each>
       </table>
@@ -32,8 +57,34 @@
             <td><xsl:value-of select="."/></td>
             <td><xsl:value-of select="../jyutpinyin"/></td>
             <td><xsl:value-of select="../translation-en"/></td>
-            <td><xsl:value-of select="../audio"/></td>
-            <td><xsl:value-of select="../audio-alt"/></td>
+            <td>
+              <audio controls="controls">
+                <source>
+                  <xsl:attribute name="src">
+                    <xsl:text>../audio/</xsl:text>
+                    <xsl:value-of select="../audio"/> 
+                  </xsl:attribute>
+                  <xsl:attribute name="type">
+                    <xsl:text>audio/mpeg</xsl:text>
+                  </xsl:attribute>
+                  <xsl:text>Your browser does not support the audio element.</xsl:text>
+                </source>
+              </audio>
+            </td>
+            <td>
+              <audio controls="controls">
+                <source>
+                  <xsl:attribute name="src">
+                    <xsl:text>../audio/</xsl:text>
+                    <xsl:value-of select="../audio-alt"/> 
+                  </xsl:attribute>
+                  <xsl:attribute name="type">
+                    <xsl:text>audio/mpeg</xsl:text>
+                  </xsl:attribute>
+                  <xsl:text>Your browser does not support the audio element.</xsl:text>
+                </source>
+              </audio>
+            </td> 
           </tr>
         </xsl:for-each>
       </table>
