@@ -100,9 +100,7 @@
       <translation-en>Can you read this Chinese character?</translation-en>
       <audio>azure-5716b74e-b6698052-ea629666-cd4e268a-39089467.mp3</audio>
     </entry>
-  </beginner>
-  <intermediate>
-    <entry>
+  <entry>
       <cantonese>聽見話學中文嘅外國人多數都學國語。係唔係真㗎？</cantonese>
       <jyutpinyin>teng1 gin3 waa6 hok6 zung1 man4 ge3 ngoi6 gwok3 jan4 do1 sou3 dou1 hok6 gwok3 jyu5 hai6 m4 hai6 zan1 gaa3</jyutpinyin>
       <translation-en>I heard that most foreigners learning Chinese are (actually) studying Mandarin. Is that true?</translation-en>
@@ -121,22 +119,10 @@
       <audio>azure-c9c1798d-4f8f1633-f324950c-7e7ef7a7-f3ecca7b.mp3</audio>
     </entry>
     <entry>
-      <cantonese>你聖誕節過得開唔開心呀？</cantonese>
-      <jyutpinyin>nei5 sing3 daan3 zit3 gwo3 dak1 hoi1 m4 hoi1 sam1 aa3</jyutpinyin>
-      <translation-en>Did you have a good time during (last) Christmas?</translation-en>
-      <audio>azure-e7070fe9-f0b26f31-1b215dc9-cfa7af07-a8114e86.mp3</audio>
-    </entry>
-    <entry>
       <cantonese>你哋屋企聖誕節通常會食咩做晚餐㗎？</cantonese>
       <jyutpinyin>nei5 dei6 uk1 kei2 sing3 daan3 zit3 tung1 soeng4 wui5 sik6 me1 zou6 maan5 caan1 gaa3</jyutpinyin>
       <translation-en>What does your family usually have for dinner on Christmas?</translation-en>
       <audio>azure-a4130a1b-6eb11082-4fef29d7-bb925533-66f54371.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>你舊年聖誕節做咗啲咩呀？</cantonese>
-      <jyutpinyin>nei5 gau6 nin4 sing3 daan3 zit3 zou6 zo2 di1 me1 aa3</jyutpinyin>
-      <translation-en>What did you do last Christmas?</translation-en>
-      <audio>azure-8ba035f7-c5d97d02-06d55979-b4397a59-adac8416.mp3</audio>
     </entry>
     <entry>
       <cantonese>你而家用緊邊部手機㗎？</cantonese>
@@ -144,6 +130,8 @@
       <translation-en>Which phone are you using right now?</translation-en>
       <audio>azure-424de222-c2b36589-9e64094f-d5b8ada8-fad2b43e.mp3</audio>
     </entry>
+  </beginner>
+  <intermediate>
     <entry>
       <cantonese>你點解要學外語呀？</cantonese>
       <jyutpinyin>nei5 dim2 gaai2 jiu3 hok6 ngoi6 jyu5 aa3</jyutpinyin>
