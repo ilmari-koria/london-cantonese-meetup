@@ -2,27 +2,25 @@
 
 DIR_TEX="./lib/tex"
 DIR_PDF_OUTPUT="./publish"
+DIR_TMP="./tmp"
+SAXON="./bin/saxon/saxon-he-12.4.jar"
+XML_PROMPTS="./lib/xml/prompts.xml"
+XSL_SPLIT="./lib/split-xml.xsl"
+XSL_TEX="./lib/prompt-xml-to-tex.xsl"
 
-SAXON="../xsl/saxon/saxon-he-12.4.jar"
+# split xml beginner and intermediate
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_SPLIT" -o:"$DIR_TMP/out"
 
-XML_PROMPTS="./xml/prompts.xml"
-XSL_CSV="../xsl/convert-to-csv.xsl"
-XSL_HTML="../xsl/generate-html-prompts.xsl"
-TEX_FILES=("beginner-tc.tex" "intermediate-tc.tex" "beginner-tc-english.tex" "intermediate-tc-english.tex")
+# generate tex
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_BEGINNER" -xsl:"$XSL_TEX" -o:"$DIR_TMP/beginner.tex"
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_INTERMEDIATE" -xsl:"$XSL_TEX" -o:"$DIR_TMP/intermediate.tex"
 
-# generate csv
-java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_CSV"
-java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_PROMPTS" -xsl:"$XSL_HTML" -o:"../index.html"
+# generate pdf
+latexindent -w "$DIR_TMP/beginner.tex"
+latexindent -w "$DIR_TMP/intermediate.tex"
+xelatex -interaction=nonstopmode "$DIR_TMP/beginner.tex"
+xelatex -interaction=nonstopmode "$DIR_TMP/intermediate.tex"
 
-# cd "$TEX_DIR" || exit
-
-# for FILE in "${FILES[@]}"; do
-#     latexindent -w "$FILE"
-#     xelatex -interaction=nonstopmode "$FILE"
-# done
-
-# mv *.pdf "$OUTPUT_DIR"
-# rsync $OUTPUT_DIR/*.pdf ~/my-files/todo/meetup
-# rm *.log *.out *.bak* *.aux
-
-echo "Done."
+# mv and rm tmp files
+mv $DIR_TMP/*.pdf "$DIR_PDF_OUTPUT"
+rm $DIR_TMP/*.tex $DIR_TMP/*.log $DIR_TMP/*.out $DIR_TMP/*.bak* $DIR_TMP/*.aux
