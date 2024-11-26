@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prompts>
+  <beginner>
+    <entry>
+      <cantonese>你啲中文學成點呀？</cantonese>
+      <jyutpinyin>nei5 di1 zung1 man4 hok6 sing4 dim2 aa3</jyutpinyin>
+      <translation-en>How is your Chinese learning going?</translation-en>
+      <audio>azure-173f94bf-0ccefb64-2dfa4687-b69c4329-612e5a9d.mp3</audio>
+      <audio-alt>azure-7438591f-04487393-7818106e-320a61c2-a7913dc9.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你想食法國嘢，日本嘢定係中國嘢？</cantonese>
+      <jyutpinyin>nei5 soeng2 sik6 faat3 gwok3 je5 jat6 bun2 je5 ding6 hai6 zung1 gwok3 je5</jyutpinyin>
+      <translation-en>Do you want to eat French  Japanese  or Chinese food?</translation-en>
+      <audio>azure-32578a28-baf791f7-f1d8c65e-c2f792a2-85475604.mp3</audio>
+      <audio-alt>azure-c9cf59ef-f1511e5e-a27db96b-4f176125-7c5a2b5f.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你叫咩名？你叫乜嘢名呀？</cantonese>
+      <jyutpinyin>nei5 giu3 me1 meng2 nei5 giu3 mat1 je5 meng2 aa3</jyutpinyin>
+      <translation-en>What's your name?</translation-en>
+      <audio>azure-dedbd21f-fbb6d12c-b685387c-fd71a2c7-4997c019.mp3</audio>
+      <audio-alt>azure-32bfa7e0-1e6612b2-efba0fda-e4cce41a-a42bff56.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你點呀？ 你最近幾好嗎？</cantonese>
+      <jyutpinyin>nei5 dim2 aa3 nei5 zeoi3 gan6 gei2 hou2 maa1</jyutpinyin>
+      <translation-en>How are you? How have you been lately?</translation-en>
+      <audio>azure-2104acbe-ed281706-a5b069dd-60b4b23f-a4d3a0cd.mp3</audio>
+      <audio-alt>azure-6e5aa1d5-e504712b-65846292-43ea27ab-af0c06eb.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你喺邊度住呀？ 你住喺倫敦邊到㗎？</cantonese>
+      <jyutpinyin>nei5 hai2 bin1 dou6 zyu6 aa3 nei5 zyu6 hai2 leon4 deon1 bin1 dou6 gaa3</jyutpinyin>
+      <translation-en>Where do you live? Where in London do you live?</translation-en>
+      <audio>azure-a42a4fd4-f0cec27f-72647b21-c37b2fea-8a3ac8c9.mp3</audio>
+      <audio-alt>azure-065f2e49-e35f9691-09222629-b7c2aff9-5a5a28b3.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你識唔識講英文㗎？ 你識講廣東話咩？</cantonese>
+      <jyutpinyin>nei5 sik1 m4 sik1 gong2 jing1 man4 gaa3 nei5 sik1 gong2 gwong2 dung1 waa2 me1</jyutpinyin>
+      <translation-en>Do you speak English? Can you speak Cantonese?</translation-en>
+      <audio>azure-d8fbfc7c-ad271046-46dab31d-961a1685-d1d80f97.mp3</audio>
+      <audio-alt>azure-b13bf40e-575efe4d-291b5709-25d63284-e508eb1f.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>夏天過成點呀？</cantonese>
+      <jyutpinyin>haa6 tin1 gwo3 sing4 dim2 aa3</jyutpinyin>
+      <translation-en>How was your summer?</translation-en>
+      <audio>azure-83dcfff5-4b09f5ab-dd192ab7-a66bca3b-d71ab83a.mp3</audio>
+      <audio-alt>azure-c92575a2-a9d18e66-46260444-4e1db1e8-4a5bedd5.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>今日幾多號？今日星期幾？</cantonese>
+      <jyutpinyin>gam1 jat6 gei2 do1 hou6 gam1 jat6 sing1 kei4 gei2</jyutpinyin>
+      <translation-en>What's the date today? What day of the week is it?</translation-en>
+      <audio>azure-f6dabf80-c229477c-8cc0357f-61cb535b-4fccf4b8.mp3</audio>
+      <audio-alt>azure-cd178e27-41348366-885fd73e-2aa37bc9-c118bb09.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>而家幾點鐘呀？ 而家幾多點呀？ 你知唔知而家幾多點呀？</cantonese>
+      <jyutpinyin>ji4 gaa1 gei2 dim2 zung1 aa3 ji4 gaa1 gei2 do1 dim2 aa3 nei5 zi1 m4 zi1 ji4 gaa1 gei2 do1 dim2 aa3</jyutpinyin>
+      <translation-en>What time is it now? Do you know what time it is?</translation-en>
+      <audio>azure-97e4285b-136c23f1-4aa01367-fd11d02b-3fea3685.mp3</audio>
+      <audio-alt>azure-bca8dfad-d89d92e5-d68eecbe-ef07d820-d50d203c.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你作咩嘢架？</cantonese>
+      <jyutpinyin>nei5 zok3 me1 je5 gaa3</jyutpinyin>
+      <translation-en>What are you doing?</translation-en>
+      <audio>azure-bcc2a670-f63ca6e9-ff967605-f90f6889-5bb84f45.mp3</audio>
+      <audio-alt>azure-d087da1d-bd266d7b-b323fd0b-3bbee457-53f5602b.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你喺倫敦住咗幾耐呀？</cantonese>
+      <jyutpinyin>nei5 hai2 leon4 deon1 zyu6 zo2 gei2 noi6 aa3</jyutpinyin>
+      <translation-en>How long have you been living in London?</translation-en>
+      <audio>azure-e4f62706-f559f4f7-1bc6a51d-b91422b4-f0104956.mp3</audio>
+      <audio-alt>azure-79769078-1e2b6960-bee5115e-65f56e56-7723716c.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>返工返成點呀？ 學得點呀？</cantonese>
+      <jyutpinyin>faan1 gung1 faan1 sing4 dim2 aa3 hok6 dak1 dim2 aa3</jyutpinyin>
+      <translation-en>How is work? How is school?</translation-en>
+      <audio>azure-54f98a93-2d408a90-84b72f87-8d5c5724-1408c1c1.mp3</audio>
+      <audio-alt>azure-f4ddc428-fd2d690d-fd1c1f1e-01c4b4b3-1c2a09fc.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你有冇去過中國呀？</cantonese>
+      <jyutpinyin>nei5 jau5 mou5 heoi3 gwo3 zung1 gwok3 aa3</jyutpinyin>
+      <translation-en>Have you ever been to China?</translation-en>
+      <audio>azure-7a27de91-b8bdb06f-a8ea437b-d479d0e9-b4caed35.mp3</audio>
+      <audio-alt>azure-6b1838c0-5bb0345a-d90582c9-32ccf096-8efa7a0f.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你鍾唔鍾意食中國嘢㗎？</cantonese>
+      <jyutpinyin>nei5 zung1 m4 zung1 ji3 sik6 zung1 gwok3 je5 gaa3</jyutpinyin>
+      <translation-en>Do you like eating Chinese food?</translation-en>
+      <audio>azure-02b42b35-6cfe5078-9d00eb49-3a5cc41b-d69336c7.mp3</audio>
+      <audio-alt>azure-1e877bef-d1d6a907-149894f5-b41bac20-42a81d9e.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你最近忙唔忙呀？</cantonese>
+      <jyutpinyin>nei5 zeoi3 gan6 mong4 m4 mong4 aa3</jyutpinyin>
+      <translation-en>Have you been busy recently?</translation-en>
+      <audio>azure-95fa7c03-af751549-ae68572d-568f4c68-653ac4b5.mp3</audio>
+      <audio-alt>azure-52b177d4-dd7062a5-045216bd-db25fee6-204ef193.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你識唔識讀呢個漢字呀？</cantonese>
+      <jyutpinyin>nei5 sik1 m4 sik1 duk6 ni1 go3 hon3 zi6 aa3</jyutpinyin>
+      <translation-en>Can you read this Chinese character?</translation-en>
+      <audio>azure-5716b74e-b6698052-ea629666-cd4e268a-39089467.mp3</audio>
+      <audio-alt>azure-b5c234ac-f667b671-ed47f4e8-a10211b8-a688f821.mp3</audio-alt>
+    </entry>
+  </beginner>
+  <intermediate>
+    <entry>
+      <cantonese>聽見話學中文嘅外國人多數都學國語。係唔係真㗎？</cantonese>
+      <jyutpinyin>teng1 gin3 waa6 hok6 zung1 man4 ge3 ngoi6 gwok3 jan4 do1 sou3 dou1 hok6 gwok3 jyu5 hai6 m4 hai6 zan1 gaa3</jyutpinyin>
+      <translation-en>I heard that most foreigners learning Chinese are (actually) studying Mandarin. Is that true?</translation-en>
+      <audio>azure-7e186f47-e19754aa-8d75de18-8ceb2bbc-57951668.mp3</audio>
+      <audio-alt>azure-0a8c9b14-2f5e2a28-77833533-bed78ef6-e7da61a2.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你食完晚飯通常做乜嘢？</cantonese>
+      <jyutpinyin>nei5 sik6 jyun4 maan5 faan6 tung1 soeng4 zou6 mat1 je5</jyutpinyin>
+      <translation-en>What do you usually do after dinner?</translation-en>
+      <audio>azure-e24a706c-fe69ca84-63baee23-eea210a0-0ee1bf3c.mp3</audio>
+      <audio-alt>azure-f1f98106-e83590d1-f87d22fc-62a5a304-cdf7e999.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你最鍾意邊個歌手呀？</cantonese>
+      <jyutpinyin>nei5 zeoi3 zung1 ji3 bin1 go3 go1 sau2 aa3</jyutpinyin>
+      <translation-en>Which singer do you like the most?</translation-en>
+      <audio>azure-c9c1798d-4f8f1633-f324950c-7e7ef7a7-f3ecca7b.mp3</audio>
+      <audio-alt>azure-8a955ff9-722ed22e-de889dfc-b10629eb-33eee05c.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你聖誕節過得開唔開心呀？</cantonese>
+      <jyutpinyin>nei5 sing3 daan3 zit3 gwo3 dak1 hoi1 m4 hoi1 sam1 aa3</jyutpinyin>
+      <translation-en>Did you have a good time during (last) Christmas?</translation-en>
+      <audio>azure-e7070fe9-f0b26f31-1b215dc9-cfa7af07-a8114e86.mp3</audio>
+      <audio-alt>azure-fdb03f05-8cde46f6-9a66f9ea-5d5561c0-6d8f4c3f.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你哋屋企聖誕節通常會食咩做晚餐㗎？</cantonese>
+      <jyutpinyin>nei5 dei6 uk1 kei2 sing3 daan3 zit3 tung1 soeng4 wui5 sik6 me1 zou6 maan5 caan1 gaa3</jyutpinyin>
+      <translation-en>What does your family usually have for dinner on Christmas?</translation-en>
+      <audio>azure-a4130a1b-6eb11082-4fef29d7-bb925533-66f54371.mp3</audio>
+      <audio-alt>azure-d0754fcb-d9f4f0d1-287aeaf5-36551a08-d35b090f.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你舊年聖誕節做咗啲咩呀？</cantonese>
+      <jyutpinyin>nei5 gau6 nin4 sing3 daan3 zit3 zou6 zo2 di1 me1 aa3</jyutpinyin>
+      <translation-en>What did you do last Christmas?</translation-en>
+      <audio>azure-8ba035f7-c5d97d02-06d55979-b4397a59-adac8416.mp3</audio>
+      <audio-alt>azure-ded242d1-d3559f73-7c3ed21e-f35c44e1-db81d7be.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你而家用緊邊部手機㗎？</cantonese>
+      <jyutpinyin>nei5 ji4 gaa1 jung6 gan2 bin1 bou6 sau2 gei1 gaa3</jyutpinyin>
+      <translation-en>Which phone are you using right now?</translation-en>
+      <audio>azure-424de222-c2b36589-9e64094f-d5b8ada8-fad2b43e.mp3</audio>
+      <audio-alt>azure-7b725dae-6ca5aea1-91961276-bb746c82-96f677c9.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你點解要學外語呀？</cantonese>
+      <jyutpinyin>nei5 dim2 gaai2 jiu3 hok6 ngoi6 jyu5 aa3</jyutpinyin>
+      <translation-en>Why do you want to learn a foreign language?</translation-en>
+      <audio>azure-dcb91418-674d69a2-4fcc040b-bdf07cd2-9ef5a09a.mp3</audio>
+      <audio-alt>azure-d359a7d9-aa164edd-8efd9f1b-04cb48fb-609ef7a7.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你今個禮拜返咗幾多個鐘呀？</cantonese>
+      <jyutpinyin>nei5 gam1 go3 lai5 baai3 faan1 zo2 gei2 do1 go3 zung1 aa3</jyutpinyin>
+      <translation-en>How many hours did you work this week?</translation-en>
+      <audio>azure-0a075f0c-24e794fd-6840653d-d5e5be97-6efcb977.mp3</audio>
+      <audio-alt>azure-bb194f87-efd2e76f-466c4189-79a8241d-848fa466.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>美國嘅首都係華盛頓定係紐約呀？</cantonese>
+      <jyutpinyin>mei5 gwok3 ge3 sau2 dou1 hai6 waa4 sing6 deon6 ding6 hai6 nau2 joek3 aa3</jyutpinyin>
+      <translation-en>Is the capital of the United States Washington or New York?</translation-en>
+      <audio>azure-1be3c65c-17e41e1c-cee91ee7-02083a7a-55c715d1.mp3</audio>
+      <audio-alt>azure-e469cfc6-445d027c-3cb2641a-716ed78c-97c4f1b3.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你鍾意聽音樂多啲吖，定係唱歌多啲呀？</cantonese>
+      <jyutpinyin>nei5 zung1 ji3 teng1 jam1 ngok6 do1 di1 aa1 ding6 hai6 coeng3 go1 do1 di1 aa3</jyutpinyin>
+      <translation-en>Do you prefer listening to music or singing?</translation-en>
+      <audio>azure-7c0db501-faf5404c-4659e63f-4ccd5201-12d26c27.mp3</audio>
+      <audio-alt>azure-b9ca58f5-d57172dc-74fa2684-97d53e1f-4ca22998.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你諗住去邊度過你個暑假呀？</cantonese>
+      <jyutpinyin>nei5 nam2 zyu6 heoi3 bin1 dou6 gwo3 nei5 go3 syu2 gaa3 aa3</jyutpinyin>
+      <translation-en>Where are you planning to spend your summer vacation?</translation-en>
+      <audio>azure-3b285ffe-7f15eb55-ffdc8082-310aeff5-017e1073.mp3</audio>
+      <audio-alt>azure-f5d83718-e412e9b8-74772b8b-7855e650-9130b780.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你有冇養寵物㗎？</cantonese>
+      <jyutpinyin>nei5 jau5 mou5 joeng5 cung2 mat6 gaa3</jyutpinyin>
+      <translation-en>Do you have any pets?</translation-en>
+      <audio>azure-b2f0a030-6a0c0c74-bf40c151-15be659a-0962e795.mp3</audio>
+      <audio-alt>azure-c38bafb7-0ab5c20a-ac19ec89-b8a1d51c-1796ed9c.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你通常幾點鐘起身㗎？</cantonese>
+      <jyutpinyin>nei5 tung1 soeng4 gei2 dim2 zung1 hei2 san1 gaa3</jyutpinyin>
+      <translation-en>What time do you usually wake up?</translation-en>
+      <audio>azure-4d5f5a5b-ced2cd27-b682c755-d3ea4b17-41065442.mp3</audio>
+      <audio-alt>azure-5726fe31-fc531f69-897c9083-c6df68ee-dec16af7.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你有冇喺學校到讀中文？</cantonese>
+      <jyutpinyin>nei5 jau5 mou5 hai2 hok6 haau6 dou6 duk6 zung1 man4</jyutpinyin>
+      <translation-en>Are you studying Chinese at school?</translation-en>
+      <audio>azure-8ccfddaf-9bfb364c-74046545-4d9fc532-e32d830a.mp3</audio>
+      <audio-alt>azure-a1179669-9383d73f-72baf718-712dcc58-906c94a9.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>呢個世界有冇外星人㗎？</cantonese>
+      <jyutpinyin>ni1 go3 sai3 gaai3 jau5 mou5 ngoi6 sing1 jan4 gaa3</jyutpinyin>
+      <translation-en>Are there aliens in this world?</translation-en>
+      <audio>azure-2435a876-3cfed5ef-0e6d3145-e36efe10-6f0d2dd4.mp3</audio>
+      <audio-alt>azure-88ce3020-593e35c6-9d6e33ca-ad0a7b89-fa28dc15.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你信唔信奇跡㗎？</cantonese>
+      <jyutpinyin>nei5 seon3 m4 seon3 kei4 zik1 gaa3</jyutpinyin>
+      <translation-en>Do you believe in miracles?</translation-en>
+      <audio>azure-6bee424d-0c23b1aa-09f96ede-28fe1d3a-aa2ff782.mp3</audio>
+      <audio-alt>azure-4a085b82-1a6e55c4-3d5a60e8-f539f80a-eca785ee.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你點樣減壓？</cantonese>
+      <jyutpinyin>nei5 dim2 joeng6 gaam2 aat3</jyutpinyin>
+      <translation-en>How do you relieve stress?</translation-en>
+      <audio>azure-897bdb7b-cf677151-a3ba9df5-9099d920-1a3508dc.mp3</audio>
+      <audio-alt>azure-f3bdb0a5-3de2cd1e-88b692fe-7cdf6e7d-cc9fc284.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>呢個世界係咪電腦模擬出嚟嘅呢？</cantonese>
+      <jyutpinyin>ni1 go3 sai3 gaai3 hai6 mai6 din6 nou5 mou4 ji5 ceot1 lai4 ge3 ne1</jyutpinyin>
+      <translation-en>Is this world a computer simulation?</translation-en>
+      <audio>azure-c5d6c8b6-e0d650bd-353f9afd-7a859e39-1148445e.mp3</audio>
+      <audio-alt>azure-b5e023de-515415d5-1f37c4a6-4d2cbe03-b4b2adc0.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>如果而家停電，會發生啲咩事呢？</cantonese>
+      <jyutpinyin>jyu4 gwo2 ji4 gaa1 ting4 din6 wui5 faat3 saang1 di1 me1 si6 ne1</jyutpinyin>
+      <translation-en>What would happen if there was a power outage right now?</translation-en>
+      <audio>azure-6a01847e-f41ce4ea-a34839c3-c96828b3-48f55984.mp3</audio>
+      <audio-alt>azure-05d21ae9-edef00f4-88ec7abf-90b468c7-402d2da1.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>講大話可唔可以係合符道德嘅呢？</cantonese>
+      <jyutpinyin>gong2 daai6 waa6 ho2 m4 ho2 ji5 hai6 hap6 fu4 dou6 dak1 ge3 ne1</jyutpinyin>
+      <translation-en>Is lying ever morally acceptable?</translation-en>
+      <audio>azure-ac0cfd9f-b9437cd8-b2cbddb0-75a91b80-d21ba0df.mp3</audio>
+      <audio-alt>azure-7e866d0d-bd740950-de59bc77-cc4efdd1-015955c5.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>可唔可以介紹幾味齋菜呀？</cantonese>
+      <jyutpinyin>ho2 m4 ho2 ji5 gaai3 siu6 gei2 mei6 zaai1 coi3 aa3</jyutpinyin>
+      <translation-en>Could you recommend some vegetarian dishes?</translation-en>
+      <audio>azure-0b4509c7-b737747b-f86caf47-88fd038b-8bf758f2.mp3</audio>
+      <audio-alt>azure-7cb0e682-50d2a370-3f16880b-84b6e203-6c830095.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你上次捐錢係幾時？</cantonese>
+      <jyutpinyin>nei5 soeng6 ci3 gyun1 cin2 hai6 gei2 si4</jyutpinyin>
+      <translation-en>When was the last time you donated money?</translation-en>
+      <audio>azure-7ac6f0a2-00e1fdd9-d4da9a88-c078875f-eacce5f8.mp3</audio>
+      <audio-alt>azure-b198e3aa-58ba3ca6-c9f5a447-45bf2256-f407c7ed.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你聖誕假諗住去邊玩呀？你成世人收過最正嘅聖誕禮物係咩呀？你想聖誕老人送咩禮物俾你呀？</cantonese>
+      <jyutpinyin>nei5 sing3 daan3 gaa3 nam2 zyu6 heoi3 bin1 waan2 aa3 nei5 seng4 sai3 jan4 sau1 gwo3 zeoi3 zing3 ge3 sing3 daan3 lai5 mat6 hai6 me1 aa3 nei5 soeng2 sing3 daan3 lou5 jan4 sung3 me1 lai5 mat6 bei2 nei5 aa3</jyutpinyin>
+      <translation-en>Where are you planning to go during the Christmas holidays? What's the best Christmas gift you've ever received? What gift do you want from Santa this year?</translation-en>
+      <audio>azure-bcc34ac6-f5e954e5-1fe877ee-b75c4a64-43e156ea.mp3</audio>
+      <audio-alt>azure-982f2552-cf9091f3-d493885f-4fc0a01e-cafad77d.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你覺得你喺倫敦每日淨係用五英鎊生唔生活到？</cantonese>
+      <jyutpinyin>nei5 gok3 dak1 nei5 hai2 leon4 deon1 mui5 jat6 zing6 hai6 jung6 ng5 jing1 bong6 sang1 m4 sang1 wut6 dou2</jyutpinyin>
+      <translation-en>Do you think you could live in London on just £5 a day?</translation-en>
+      <audio>azure-a087abb2-022918b8-845a0324-9bac063a-7e804214.mp3</audio>
+      <audio-alt>azure-84d7c0a5-59db7b19-a4887421-c3ab7fdc-079f63e4.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>你覺得可以做啲咩嚟減低倫敦嘅空氣污染呢？</cantonese>
+      <jyutpinyin>nei5 gok3 dak1 ho2 ji5 zou6 di1 me1 lai4 gaam2 dai1 leon4 deon1 ge3 hung1 hei3 wu1 jim6 ne1</jyutpinyin>
+      <translation-en>What do you think can be done to reduce air pollution in London?</translation-en>
+      <audio>azure-9f55f6d3-05c1e401-24d022bf-9cbbf05b-2f49621a.mp3</audio>
+      <audio-alt>azure-c225149a-5fce2e61-989c964a-d61d54db-2751f7ed.mp3</audio-alt>
+    </entry>
+    <entry>
+      <cantonese>發展經濟重要啲吖，定係保護環境重要啲？</cantonese>
+      <jyutpinyin>faat3 zin2 ging1 zai3 zung6 jiu3 di1 aa1 ding6 hai6 bou2 wu6 waan4 ging2 zung6 jiu3 di1</jyutpinyin>
+      <translation-en>What's more important  economic development or environmental protection?</translation-en>
+      <audio>azure-63dca6ba-1db4b4f5-259513d0-7988b038-d912acf6.mp3</audio>
+      <audio-alt>azure-d350834f-dfb9754d-86df28a7-d4d6687f-933a2514.mp3</audio-alt>
+    </entry>
+  </intermediate>
+</prompts>

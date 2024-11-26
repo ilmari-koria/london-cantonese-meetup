@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper,nofoldmark]{leaflet}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{nopageno}
+\usepackage[svgnames]{xcolor}
+\usepackage[most]{tcolorbox}
+
+\usepackage{xeCJK}
+\xeCJKsetup{CJKglue=\hskip 0.35em plus 0.1em minus 0.1em} 
+
+\usepackage{setspace}
+% \setstretch{1.5}
+
+\usepackage{fontspec}
+\setmainfont{Noto Serif CJK HK} 
+\setCJKmainfont{Noto Serif CJK HK}
+
+\usepackage{ruby}
+\renewcommand{\rubysize}{0.40}
+\newfontfamily{\mono}{Noto Mono}
+\newcommand{\C}[2]{\renewcommand\rubysep{-8}{\mono \ruby{#1}{\textsf{#2}}}}
+
+\usepackage{enumitem}
+\newcommand{\largeitem}[1]{\item \raggedright \large{#1}}
+\newcommand{\extralargeitem}[1]{\item \raggedright \Large{#1}}
+\newcommand{\smallitem}[1]{\item \footnotesize\begin{spacing}{1}{#1}\end{spacing}}
+
+\newlist{enumerate-with-translation}{enumerate}{1}
+\setlist[enumerate-with-translation,1]{label=,  
+                                   left=0,         
+                                   labelsep=0,     
+                                   itemsep=0,      
+                                   topsep=0,       
+                                   bottomsep=0,    
+                                   }
+
+\newlist{enumerate-no-translation}{enumerate}{1}
+\setlist[enumerate-no-translation,1]{label=,  
+                                   left=0,         
+                                   labelsep=0,     
+                                   itemsep=2em,      
+                                   topsep=0,       
+                                   bottomsep=0,    
+                                   }
+
+
+\usepackage{titlesec}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\centering}
+  {}
+  {0em}
+  {}
+
+% TODO loop this 
+\CutLine*[-]{1}
+\CutLine*[-]{2}
+\CutLine*[-]{3}
+\CutLine*[-]{4}
+\CutLine*[-]{5}
+\CutLine*[-]{6}
