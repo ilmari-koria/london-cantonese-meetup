@@ -1,8 +1,7 @@
 #!/bin/bash
 
-DIR_ANKI="../anki"
-DIR_TEX="./tex"
-DIR_PDF_OUTPUT="../publish"
+DIR_TEX="./lib/tex"
+DIR_PDF_OUTPUT="./publish"
 
 SAXON="../xsl/saxon/saxon-he-12.4.jar"
 
