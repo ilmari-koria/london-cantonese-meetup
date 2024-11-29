@@ -12,9 +12,9 @@
 
   <xsl:template match="/">
     <xsl:text>
-      \input{preamble}
+      \input{/lib/tex/preamble}
       \begin{document}
-      \input{meta}
+      \input{/lib/tex/meta}
       \begin{tcolorbox}[sharp corners]
       \begin{center}
       \textbf{\large 中級}
@@ -30,25 +30,18 @@
       \begin{enumerate-with-translation}
     </xsl:text>
     <xsl:for-each select="//entry">
-      <xsl:text>
-        \largeitem{
-      </xsl:text>
-      <xsl:value-of select="cantonese"/>
-      <xsl:text>
-        }
-      </xsl:text>
-      <xsl:text>
-        \smallitem{
-      </xsl:text>
+      <xsl:text>\largeitem{</xsl:text>
+        <xsl:value-of select="cantonese"/>
+        <xsl:text>}</xsl:text>
+        <xsl:text>
+        </xsl:text>
+        <xsl:text>\smallitem{</xsl:text>
         <xsl:value-of select="translation-en"/>
-      <xsl:text>
-        }
-      </xsl:text>
+        <xsl:text>}</xsl:text>
+        <xsl:text>
+        </xsl:text>
     </xsl:for-each>
     <xsl:text>
-      }
-      \end{enumerate-with-translation}
-      \end{tcolorbox}
       \end{enumerate-with-translation}
       \end{tcolorbox}
       \end{spacing}
