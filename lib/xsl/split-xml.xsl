@@ -7,10 +7,14 @@
   </xsl:template>
   <xsl:template match="/prompts">
     <xsl:result-document href="./tmp/split/beginner.xml">
-      <xsl:copy-of select="beginner"/>
+      <prompts>
+        <xsl:copy-of select="beginner"/>
+      </prompts>
     </xsl:result-document>
     <xsl:result-document href="./tmp/split/intermediate.xml">
-      <xsl:copy-of select="intermediate"/>
+      <prompts>
+        <xsl:copy-of select="intermediate"/>
+      </prompts>
     </xsl:result-document>
   </xsl:template>
 </xsl:stylesheet>
