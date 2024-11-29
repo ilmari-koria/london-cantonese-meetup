@@ -5,109 +5,64 @@
 <prompts>
   <beginner>
     <entry>
-      <cantonese>你啲中文學成點呀？</cantonese>
-      <translation-en>How is your Chinese learning going?</translation-en>
-      <audio>azure-173f94bf-0ccefb64-2dfa4687-b69c4329-612e5a9d.mp3</audio>
+      <cantonese>你叫咩名？你叫乜嘢名呀？請問你貴姓呀？</cantonese>
     </entry>
     <entry>
-      <cantonese>你想食法國嘢，日本嘢定係中國嘢？</cantonese>
-      <translation-en>Do you want to eat French  Japanese  or Chinese food?</translation-en>
-      <audio>azure-32578a28-baf791f7-f1d8c65e-c2f792a2-85475604.mp3</audio>
+      <cantonese>你鍾意學語言嗎？你啲中文學成點呀？你學咗幾耐廣東話？</cantonese>
     </entry>
     <entry>
-      <cantonese>你叫咩名？你叫乜嘢名呀？</cantonese>
-      <translation-en>What's your name?</translation-en>
-      <audio>azure-dedbd21f-fbb6d12c-b685387c-fd71a2c7-4997c019.mp3</audio>
+      <cantonese>你點呀？你最近點啊？屋企人點啊？</cantonese>
     </entry>
     <entry>
-      <cantonese>你點呀？ 你最近幾好嗎？</cantonese>
-      <translation-en>How are you? How have you been lately?</translation-en>
-      <audio>azure-2104acbe-ed281706-a5b069dd-60b4b23f-a4d3a0cd.mp3</audio>
+      <cantonese>你鍾意食法國嘢，日本嘢定係中國嘢？你鍾唔鍾意廣東菜？英國嘢咩？</cantonese>
     </entry>
     <entry>
-      <cantonese>你喺邊度住呀？ 你住喺倫敦邊到㗎？</cantonese>
-      <translation-en>Where do you live? Where in London do you live?</translation-en>
-      <audio>azure-a42a4fd4-f0cec27f-72647b21-c37b2fea-8a3ac8c9.mp3</audio>
+      <cantonese>你由邊度嚟架？你系邊度人？你喺邊度住呀？</cantonese>
     </entry>
     <entry>
-      <cantonese>你識唔識講英文㗎？ 你識講廣東話咩？</cantonese>
-      <translation-en>Do you speak English? Can you speak Cantonese?</translation-en>
-      <audio>azure-d8fbfc7c-ad271046-46dab31d-961a1685-d1d80f97.mp3</audio>
+      <cantonese>你識講廣東話咩？你嘅英文點呀？你仲識講咩語言？</cantonese>
     </entry>
     <entry>
-      <cantonese>夏天過成點呀？</cantonese>
-      <translation-en>How was your summer?</translation-en>
-      <audio>azure-83dcfff5-4b09f5ab-dd192ab7-a66bca3b-d71ab83a.mp3</audio>
+      <cantonese>夏天過成點呀？你暑假做咗啲咩？你有冇去旅行？</cantonese>
     </entry>
     <entry>
-      <cantonese>今日幾多號？今日星期幾？</cantonese>
-      <translation-en>What's the date today? What day of the week is it?</translation-en>
-      <audio>azure-f6dabf80-c229477c-8cc0357f-61cb535b-4fccf4b8.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>而家幾點鐘呀？ 而家幾多點呀？ 你知唔知而家幾多點呀？</cantonese>
-      <translation-en>What time is it now? Do you know what time it is?</translation-en>
-      <audio>azure-97e4285b-136c23f1-4aa01367-fd11d02b-3fea3685.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>你作咩嘢架？</cantonese>
-      <translation-en>What are you doing?</translation-en>
-      <audio>azure-bcc2a670-f63ca6e9-ff967605-f90f6889-5bb84f45.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>你喺倫敦住咗幾耐呀？</cantonese>
-      <translation-en>How long have you been living in London?</translation-en>
-      <audio>azure-e4f62706-f559f4f7-1bc6a51d-b91422b4-f0104956.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>返工返成點呀？ 學得點呀？</cantonese>
-      <translation-en>How is work? How is school?</translation-en>
-      <audio>azure-54f98a93-2d408a90-84b72f87-8d5c5724-1408c1c1.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>你有冇去過中國呀？</cantonese>
-      <translation-en>Have you ever been to China?</translation-en>
-      <audio>azure-7a27de91-b8bdb06f-a8ea437b-d479d0e9-b4caed35.mp3</audio>
-    </entry>
-    <entry>
-      <cantonese>你鍾唔鍾意食中國嘢㗎？</cantonese>
-      <translation-en>Do you like eating Chinese food?</translation-en>
-      <audio>azure-02b42b35-6cfe5078-9d00eb49-3a5cc41b-d69336c7.mp3</audio>
+      <cantonese>而家幾點鐘呀？今日幾多號？今日星期幾？</cantonese>
     </entry>
     <entry>
       <cantonese>你最近忙唔忙呀？</cantonese>
-      <translation-en>Have you been busy recently?</translation-en>
-      <audio>azure-95fa7c03-af751549-ae68572d-568f4c68-653ac4b5.mp3</audio>
     </entry>
     <entry>
-      <cantonese>你識唔識讀呢個漢字呀？</cantonese>
-      <translation-en>Can you read this Chinese character?</translation-en>
-      <audio>azure-5716b74e-b6698052-ea629666-cd4e268a-39089467.mp3</audio>
+      <cantonese>你作咩嘢架？你做乜嘢工作呀？你喺邊度返工？</cantonese>
+    </entry>
+    <entry>
+      <cantonese>你係唔係住喺英國？住喺英國邊度？住咗幾耐？</cantonese>
+    </entry>
+    <entry>
+      <cantonese>返工返成點呀？ 學得點呀？</cantonese>
+    </entry>
+    <entry>
+      <cantonese>你有冇去過中國呀？你去過美國未？有冇去過香港？</cantonese>
+    </entry>
+    <entry>
+      <cantonese>你鍾唔鍾意食中國嘢㗎？你鍾意食咩中國菜？</cantonese>
+    </entry>
+    <entry>
+      <cantonese>你嘅愛好係咩？有空嘅時候你鍾意做咩？</cantonese>
     </entry>
     <entry>
       <cantonese>聽見話學中文嘅外國人多數都學國語。係唔係真㗎？</cantonese>
-      <translation-en>I heard that most foreigners learning Chinese are (actually) studying Mandarin. Is that true?</translation-en>
-      <audio>azure-7e186f47-e19754aa-8d75de18-8ceb2bbc-57951668.mp3</audio>
     </entry>
     <entry>
       <cantonese>你食完晚飯通常做乜嘢？</cantonese>
-      <translation-en>What do you usually do after dinner?</translation-en>
-      <audio>azure-e24a706c-fe69ca84-63baee23-eea210a0-0ee1bf3c.mp3</audio>
     </entry>
     <entry>
-      <cantonese>你最鍾意邊個歌手呀？</cantonese>
-      <translation-en>Which singer do you like the most?</translation-en>
-      <audio>azure-c9c1798d-4f8f1633-f324950c-7e7ef7a7-f3ecca7b.mp3</audio>
+      <cantonese>你最鍾意邊個歌手呀？你最鍾意嘅電視節目係咩？你最鍾意嘅專輯係咩？</cantonese>
     </entry>
     <entry>
       <cantonese>你哋屋企聖誕節通常會食咩做晚餐㗎？</cantonese>
-      <translation-en>What does your family usually have for dinner on Christmas?</translation-en>
-      <audio>azure-a4130a1b-6eb11082-4fef29d7-bb925533-66f54371.mp3</audio>
     </entry>
     <entry>
       <cantonese>你而家用緊邊部手機㗎？</cantonese>
-      <translation-en>Which phone are you using right now?</translation-en>
-      <audio>azure-424de222-c2b36589-9e64094f-d5b8ada8-fad2b43e.mp3</audio>
     </entry>
   </beginner>
   <intermediate>
