@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                version="2.0">
+                version="3.0">
 
   <xsl:strip-space elements="*"/>
 
@@ -82,12 +82,16 @@
     <!-- sentences -->
     <xsl:for-each select="//entry">
       <xsl:text>\largeitem{</xsl:text>
-      <xsl:value-of select="cantonese"/>
+      <!-- TODO should this be a function, it feels kinda hacky -->
+      <xsl:variable name="cjk" select="for $x in string-to-codepoints(cantonese/text()) return codepoints-to-string($x)" />
+      <xsl:variable name="pinyin" select="tokenize(replace(jyutping/text(), '\?', ' ?'), '\s+')" />
+      <xsl:for-each select="1 to count($cjk)">
+        <xsl:variable name="index" select="." />
+        <xsl:value-of select="concat('\C{',$cjk[$index],'}{',$pinyin[$index],'}')"/>
+      </xsl:for-each>
       <xsl:text>}</xsl:text>
-      <xsl:text>
-      </xsl:text>
       <xsl:text>\smallitem{</xsl:text>
-      <xsl:value-of select="translation-en"/>
+      <xsl:value-of select="english"/>
       <xsl:text>}</xsl:text>
       <xsl:text>
       </xsl:text>
