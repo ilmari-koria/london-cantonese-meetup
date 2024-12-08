@@ -21,12 +21,12 @@
     </xsl:text>
 
     <!-- prompt level -->
-    <xsl:text>\textbf{\large</xsl:text>
+    <xsl:text>\textbf{\large </xsl:text>
     <xsl:choose>
-      <xsl:when test="/beginner">
+      <xsl:when test="/prompts//beginner">
         <text>初級</text>
       </xsl:when>
-      <xsl:when test="/intermediate">
+      <xsl:when test="/prompts/intermediate">
         <text>中級</text>
       </xsl:when>
       <xsl:otherwise>
