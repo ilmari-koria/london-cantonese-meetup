@@ -12,13 +12,13 @@ java -cp $SAXON net.sf.saxon.Transform -t -xsl:"$XSL_SPLIT" -s:"$XML_PROMPTS"
 
 # generate tex
 java -cp $SAXON net.sf.saxon.Transform -t -s:"$DIR_TMP/split/beginner.xml" -xsl:"$XSL_TEX" -o:"$DIR_TMP/tex/beginner.tex"
-# java -cp $SAXON net.sf.saxon.Transform -t -s:"$XML_INTERMEDIATE" -xsl:"$XSL_TEX" -o:"$DIR_TMP/tex/intermediate.tex"
+java -cp $SAXON net.sf.saxon.Transform -t -s:"$DIR_TMP/split/intermediate.xml" -xsl:"$XSL_TEX" -o:"$DIR_TMP/tex/intermediate.tex"
 
-# # generate pdf
+# generate pdf
 latexindent -w "$DIR_TMP/tex/beginner.tex"
+latexindent -w "$DIR_TMP/tex/intermediate.tex"
 xelatex -output-directory=$DIR_PUBLISH -interaction=nonstopmode "$DIR_TMP/tex/beginner.tex"
-# latexindent -w "$DIR_TMP/intermediate.tex"
-# xelatex -interaction=nonstopmode "$DIR_TMP/intermediate.tex"
+xelatex -output-directory=$DIR_PUBLISH -interaction=nonstopmode "$DIR_TMP/tex/intermediate.tex"
 
-# # mv and rm tmp files
-# rm $DIR_TMP/*.tex $DIR_TMP/*.log $DIR_TMP/*.out $DIR_TMP/*.bak* $DIR_TMP/*.aux
+# mv and rm tmp files
+rm $DIR_TMP/*.tex $DIR_TMP/*.log $DIR_TMP/*.out $DIR_TMP/*.bak* $DIR_TMP/*.aux
