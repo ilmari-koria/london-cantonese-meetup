@@ -10,14 +10,33 @@
               indent="no"
               omit-xml-declaration="yes"/>
 
-  <xsl:template match="/">
+  <xsl:template match="/prompts">
+
     <xsl:text>
       \input{./lib/tex/preamble}
       \begin{document}
       \input{./lib/tex/meta}
       \begin{tcolorbox}[sharp corners]
       \begin{center}
-      \textbf{\large 中級}
+    </xsl:text>
+
+    <!-- prompt level -->
+    <xsl:text>\textbf{\large</xsl:text>
+    <xsl:choose>
+      <xsl:when test="/beginner">
+        <text>初級</text>
+      </xsl:when>
+      <xsl:when test="/intermediate">
+        <text>中級</text>
+      </xsl:when>
+      <xsl:otherwise>
+        <text>ERROR</text>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>}</xsl:text>
+    <!-- end prompt level -->
+
+    <xsl:text>
       \end{center}
       \end{tcolorbox}
       \newpage
@@ -25,27 +44,62 @@
       \section*{「我可唔可以問幾個問題呀？」}
       \end{center}
       \begin{spacing}{1.5}
-      \begin{tcolorbox}[enhanced, breakable, skin first=enhanced, skin middle=enhanced, skin last=enhanced,colback=LightYellow!20!white, colframe=Yellow!50!black, boxrule=0.5mm]
+    </xsl:text>
+
+    <!-- prompt color per level -->
+    <xsl:text>
+      \begin{tcolorbox}
+      [
+      enhanced,
+      breakable,
+      skin first=enhanced,
+      skin middle=enhanced,
+      skin last=enhanced,
+      boxrule=0.5mm,
+    </xsl:text>
+    <xsl:choose>
+      <xsl:when test="/prompts/beginner">
+        <xsl:text>colback=LightGreen!20!white,</xsl:text>
+        <xsl:text>colframe=Green!50!black</xsl:text>
+      </xsl:when>
+      <xsl:when test="/prompts/intermediate">
+        <xsl:text>colback=LightYellow!20!white,</xsl:text>
+        <xsl:text>colframe=Yellow!50!black</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>colback=white,</xsl:text>
+        <xsl:text>colframe=black</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>]</xsl:text>
+    <!-- end prompt color -->
+
+    <xsl:text>
       \vspace{10pt}
       \begin{enumerate-with-translation}
     </xsl:text>
+
+    <!-- sentences -->
     <xsl:for-each select="//entry">
       <xsl:text>\largeitem{</xsl:text>
-        <xsl:value-of select="cantonese"/>
-        <xsl:text>}</xsl:text>
-        <xsl:text>
-        </xsl:text>
-        <xsl:text>\smallitem{</xsl:text>
-        <xsl:value-of select="translation-en"/>
-        <xsl:text>}</xsl:text>
-        <xsl:text>
-        </xsl:text>
+      <xsl:value-of select="cantonese"/>
+      <xsl:text>}</xsl:text>
+      <xsl:text>
+      </xsl:text>
+      <xsl:text>\smallitem{</xsl:text>
+      <xsl:value-of select="translation-en"/>
+      <xsl:text>}</xsl:text>
+      <xsl:text>
+      </xsl:text>
     </xsl:for-each>
+    <!-- end sentences -->
+
     <xsl:text>
       \end{enumerate-with-translation}
       \end{tcolorbox}
       \end{spacing}
       \end{document}
     </xsl:text>
+
   </xsl:template>
 </xsl:stylesheet>
