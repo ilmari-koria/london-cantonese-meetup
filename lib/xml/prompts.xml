@@ -1,170 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- max 20 per level -->
-
 <prompts>
   <beginner>
     <entry>
       <cantonese>你叫咩名？你叫乜嘢名呀？請問你貴姓呀？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你鍾意學語言嗎？你啲中文學成點呀？你學咗幾耐廣東話？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你點呀？你最近點啊？屋企人點啊？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你鍾意食法國嘢，日本嘢定係中國嘢？你鍾唔鍾意廣東菜？英國嘢咩？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你由邊度嚟架？你系邊度人？你喺邊度住呀？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你識講廣東話咩？你嘅英文點呀？你仲識講咩語言？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>夏天過成點呀？你暑假做咗啲咩？你有冇去旅行？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>而家幾點鐘呀？今日幾多號？今日星期幾？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你最近忙唔忙呀？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你作咩嘢架？你做乜嘢工作呀？你喺邊度返工？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你係唔係住喺英國？住喺英國邊度？住咗幾耐？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>返工返成點呀？ 學得點呀？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你有冇去過中國呀？你去過美國未？有冇去過香港？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你鍾唔鍾意食中國嘢㗎？你鍾意食咩中國菜？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你嘅愛好係咩？有空嘅時候你鍾意做咩？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>聽見話學中文嘅外國人多數都學國語。係唔係真㗎？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你食完晚飯通常做乜嘢？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你最鍾意邊個歌手呀？你最鍾意嘅電視節目係咩？你最鍾意嘅專輯係咩？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你哋屋企聖誕節通常會食咩做晚餐㗎？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你而家用緊邊部手機㗎？</cantonese>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
   </beginner>
   <intermediate>
     <entry>
       <cantonese>你點解要學外語呀？</cantonese>
-      <translation-en>Why do you want to learn a foreign language?</translation-en>
-      <audio>azure-dcb91418-674d69a2-4fcc040b-bdf07cd2-9ef5a09a.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你今個禮拜返咗幾多個鐘呀？</cantonese>
-      <translation-en>How many hours did you work this week?</translation-en>
-      <audio>azure-0a075f0c-24e794fd-6840653d-d5e5be97-6efcb977.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>美國嘅首都係華盛頓定係紐約呀？</cantonese>
-      <translation-en>Is the capital of the United States Washington or New York?</translation-en>
-      <audio>azure-1be3c65c-17e41e1c-cee91ee7-02083a7a-55c715d1.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你鍾意聽音樂多啲吖，定係唱歌多啲呀？</cantonese>
-      <translation-en>Do you prefer listening to music or singing?</translation-en>
-      <audio>azure-7c0db501-faf5404c-4659e63f-4ccd5201-12d26c27.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你諗住去邊度過你個暑假呀？</cantonese>
-      <translation-en>Where are you planning to spend your summer vacation?</translation-en>
-      <audio>azure-3b285ffe-7f15eb55-ffdc8082-310aeff5-017e1073.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你有冇養寵物㗎？</cantonese>
-      <translation-en>Do you have any pets?</translation-en>
-      <audio>azure-b2f0a030-6a0c0c74-bf40c151-15be659a-0962e795.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你通常幾點鐘起身㗎？</cantonese>
-      <translation-en>What time do you usually wake up?</translation-en>
-      <audio>azure-4d5f5a5b-ced2cd27-b682c755-d3ea4b17-41065442.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你有冇喺學校到讀中文？</cantonese>
-      <translation-en>Are you studying Chinese at school?</translation-en>
-      <audio>azure-8ccfddaf-9bfb364c-74046545-4d9fc532-e32d830a.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>呢個世界有冇外星人㗎？</cantonese>
-      <translation-en>Are there aliens in this world?</translation-en>
-      <audio>azure-2435a876-3cfed5ef-0e6d3145-e36efe10-6f0d2dd4.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你信唔信奇跡㗎？</cantonese>
-      <translation-en>Do you believe in miracles?</translation-en>
-      <audio>azure-6bee424d-0c23b1aa-09f96ede-28fe1d3a-aa2ff782.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你點樣減壓？</cantonese>
-      <translation-en>How do you relieve stress?</translation-en>
-      <audio>azure-897bdb7b-cf677151-a3ba9df5-9099d920-1a3508dc.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>呢個世界係咪電腦模擬出嚟嘅呢？</cantonese>
-      <translation-en>Is this world a computer simulation?</translation-en>
-      <audio>azure-c5d6c8b6-e0d650bd-353f9afd-7a859e39-1148445e.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>如果而家停電，會發生啲咩事呢？</cantonese>
-      <translation-en>What would happen if there was a power outage right now?</translation-en>
-      <audio>azure-6a01847e-f41ce4ea-a34839c3-c96828b3-48f55984.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>講大話可唔可以係合符道德嘅呢？</cantonese>
-      <translation-en>Is lying ever morally acceptable?</translation-en>
-      <audio>azure-ac0cfd9f-b9437cd8-b2cbddb0-75a91b80-d21ba0df.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>可唔可以介紹幾味齋菜呀？</cantonese>
-      <translation-en>Could you recommend some vegetarian dishes?</translation-en>
-      <audio>azure-0b4509c7-b737747b-f86caf47-88fd038b-8bf758f2.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你上次捐錢係幾時？</cantonese>
-      <translation-en>When was the last time you donated money?</translation-en>
-      <audio>azure-7ac6f0a2-00e1fdd9-d4da9a88-c078875f-eacce5f8.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你聖誕假諗住去邊玩呀？你成世人收過最正嘅聖誕禮物係咩呀？你想聖誕老人送咩禮物俾你呀？</cantonese>
-      <translation-en>Where are you planning to go during the Christmas holidays? What's the best Christmas gift you've ever received? What gift do you want from Santa this year?</translation-en>
-      <audio>azure-bcc34ac6-f5e954e5-1fe877ee-b75c4a64-43e156ea.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你覺得你喺倫敦每日淨係用五英鎊生唔生活到？</cantonese>
-      <translation-en>Do you think you could live in London on just £5 a day?</translation-en>
-      <audio>azure-a087abb2-022918b8-845a0324-9bac063a-7e804214.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>你覺得可以做啲咩嚟減低倫敦嘅空氣污染呢？</cantonese>
-      <translation-en>What do you think can be done to reduce air pollution in London?</translation-en>
-      <audio>azure-9f55f6d3-05c1e401-24d022bf-9cbbf05b-2f49621a.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
     <entry>
       <cantonese>發展經濟重要啲吖，定係保護環境重要啲？</cantonese>
-      <translation-en>What's more important  economic development or environmental protection?</translation-en>
-      <audio>azure-63dca6ba-1db4b4f5-259513d0-7988b038-d912acf6.mp3</audio>
+      <english></english>
+      <jyutping></jyutping>
     </entry>
   </intermediate>
 </prompts>
