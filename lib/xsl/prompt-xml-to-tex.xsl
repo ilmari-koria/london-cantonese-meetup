@@ -12,9 +12,9 @@
 
   <xsl:template match="/">
     <xsl:text>
-      \input{/lib/tex/preamble}
+      \input{./lib/tex/preamble}
       \begin{document}
-      \input{/lib/tex/meta}
+      \input{./lib/tex/meta}
       \begin{tcolorbox}[sharp corners]
       \begin{center}
       \textbf{\large 中級}
