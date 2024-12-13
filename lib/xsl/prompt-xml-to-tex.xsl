@@ -84,10 +84,10 @@
       <xsl:text>\largeitem{</xsl:text>
       <!-- TODO should this be a function, it feels kinda hacky -->
       <xsl:variable name="cjk" select="for $x in string-to-codepoints(cantonese/text()) return codepoints-to-string($x)" />
-      <xsl:variable name="pinyin" select="tokenize(replace(jyutping/text(), '\?', ' ?'), '\s+')" />
+      <xsl:variable name="pinyin" select="tokenize(replace(jyutping/text(), '\?', ' ?'), '\s+|\.|,|/')" />
       <xsl:for-each select="1 to count($cjk)">
         <xsl:variable name="index" select="." />
-        <xsl:value-of select="concat('\C{',$cjk[$index],'}{',$pinyin[$index],'}')"/>
+        <xsl:value-of select="concat('\C{',normalize-space($cjk[$index]),'}{',normalize-space(replace(replace(replace(replace($pinyin[$index],'\?',''),'\.',''),',',''),'/','')),'}')"/>
       </xsl:for-each>
       <xsl:text>}</xsl:text>
       <xsl:text>\smallitem{</xsl:text>
