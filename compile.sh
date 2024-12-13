@@ -21,4 +21,6 @@ xelatex -output-directory=$DIR_PUBLISH -interaction=nonstopmode "$DIR_TMP/tex/be
 xelatex -output-directory=$DIR_PUBLISH -interaction=nonstopmode "$DIR_TMP/tex/intermediate.tex"
 
 # mv and rm tmp files
-rm $DIR_TMP/*.tex $DIR_TMP/*.log $DIR_TMP/*.out $DIR_TMP/*.bak* $DIR_TMP/*.aux
+rm ./texput.log $DIR_TMP/tex/*.tex $DIR_TMP/tex/*.log $DIR_TMP/tex/*.out $DIR_TMP/tex/*.bak* $DIR_TMP/tex/*.aux
+rm $DIR_PUBLISH/*.tex $DIR_PUBLISH/*.log $DIR_PUBLISH/*.out $DIR_PUBLISH/*.bak* $DIR_PUBLISH/*.aux 
+
