@@ -103,111 +103,109 @@
       <english>What time do you usually get up? Did you have breakfast this morning?</english>
     </entry>
   </beginner>
-
-
-
-  <intermediate>
-    <entry>
-      <cantonese>點解有啲人會唔鍾意聖誕節嘅？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
-    <entry>
-      <cantonese>你舊年聖誕收過最正嘅禮物係咩呀？你今年諗住送聖誕禮物俾咩人呀？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
-    <entry>
-      <cantonese></cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
-    <entry>
-      <cantonese>你鍾意聽音樂多啲吖，定係唱歌多啲呀？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
+<intermediate>
     <entry>
       <cantonese>你諗住去邊度過你個暑假呀？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Where are you planning to spend your summer vacation?</english>
+      <jyutping>nei5 nam2 zyu6 heoi3 bin1 dou6 gwo3 nei5 go3 syu2 gaa3 aa3?</jyutping>
+    </entry>
+    <entry>
+      <cantonese>你舊年聖誕收過最正嘅禮物係咩呀？</cantonese>
+      <english>What was the best gift you received last Christmas?</english>
+      <jyutping>nei5 gau6 nin2 sing3 daan3 sau1 gwo3 zeoi3 zeng3 ge3 lai5 mat6 hai6 me1 aa3?</jyutping>
+    </entry>
+    <entry>
+      <cantonese>你今年諗住送聖誕禮物俾咩人呀？</cantonese>
+      <english>Who are you planning to give Christmas gifts to this year?</english>
+      <jyutping>nei5 gam1 nin2 nam2 zyu6 sung3 sing3 daan3 lai5 mat6 bei2 me1 jan4 aa3?</jyutping>
+    </entry>
+    <entry>
+      <cantonese>你覺得我哋而家嘅生活比以前好咗咩？</cantonese>
+      <english>Do you think our life is better than before?</english>
+      <jyutping>nei5 m4 gok3 dak1 ngo5 dei6 ji4 gaa1 ge3 sang1 wut6 bei2 ji5 cin4 hou2 zo2 me1?</jyutping>
     </entry>
     <entry>
       <cantonese>你有冇養寵物㗎？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Do you have any pets?</english>
+      <jyutping>nei5 jau5 mou5 joeng5 cung2 mat6 gaa3?</jyutping>
     </entry>
     <entry>
-      <cantonese></cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <cantonese>你有冇啲咩書推介呀？</cantonese>
+      <english>Do you have any book recommendations?</english>
+      <jyutping>nei5 jau5 mou5 di1 me1 syu1 teoi1 gaai3 aa3?</jyutping>
     </entry>
     <entry>
-      <cantonese></cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <cantonese>你鍾唔鍾意大自然㗎？</cantonese>
+      <english>Do you like nature?</english>
+      <jyutping>nei5 zung1 m4 zung1 ji3 daai6 zi6 jin4 gaa3?</jyutping>
+    </entry>
+    <entry>
+      <cantonese>如果你買六合彩贏咗一千萬，你會用啲錢嚟做咩？</cantonese>
+      <english>If you won ten million in the lottery, what would you do with the money?</english>
+      <jyutping>jyu4 gwo2 nei5 maai5 luk6 hap6 coi2 jing4 zo2 jat1 cin1 maan6, nei5 wui5 jung6 di1 cin2 lai4 zou6 me1?</jyutping>
+    </entry>
+    <entry>
+      <cantonese>數學有乜用?</cantonese>
+      <english>What is the use of mathematics?</english>
+      <jyutping>sau3 hok6 jau5 mat1 jung6?</jyutping>
     </entry>
     <entry>
       <cantonese>呢個世界有冇外星人㗎？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Are there aliens in this world?</english>
+      <jyutping>ni1 go3 sai3 gaai3 jau5 mou5 ngoi6 sing1 jan4 gaa3?</jyutping>
     </entry>
     <entry>
       <cantonese>你信唔信奇跡㗎？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
-    <entry>
-      <cantonese>你點樣減壓？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Do you believe in miracles?</english>
+      <jyutping>nei5 seon3 m4 seon3 kei4 zik1 gaa3?</jyutping>
     </entry>
     <entry>
       <cantonese>呢個世界係咪電腦模擬出嚟嘅呢？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Is this world a computer simulation?</english>
+      <jyutping>ni1 go3 sai3 gaai3 hai6 mai6 din6 nou5 mou4 ji5 ceot1 lai4 ge3 ne1?</jyutping>
     </entry>
     <entry>
       <cantonese>如果而家停電，會發生啲咩事呢？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>What would happen if there were a power outage now?</english>
+      <jyutping>jyu4 gwo2 ji4 gaa1 ting4 din6, wui5 faat3 sang1 di1 me1 si6 ne1?</jyutping>
     </entry>
     <entry>
       <cantonese>講大話可唔可以係合符道德嘅呢？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Can lying be morally acceptable?</english>
+      <jyutping>gong2 daai6 waa6 ho2 m4 ho2 ji5 hai6 hap6 fu4 dou6 dak1 ge3 ne1?</jyutping>
     </entry>
     <entry>
-      <cantonese>可唔可以介紹幾味齋菜呀？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <cantonese>可唔可以介紹幾味齋菜呀？食齋嘅人會唔會間唔中偷雞食吓肉㗎？</cantonese>
+      <english>Can you recommend a few vegetarian dishes? Do vegetarians sometimes sneak meat?</english>
+      <jyutping>ho2 m4 ho2 ji5 gaai3 siu6 gei2 mei6 zaai1 coi3 aa3? sik6 zaai1 ge3 jan4 wui5 m4 wui5 gaan3 m4 zung1 tau1 gai1 sik6 haa5 juk6 gaa3?</jyutping>
     </entry>
     <entry>
       <cantonese>你上次捐錢係幾時？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
-    </entry>
-    <entry>
-      <cantonese>你聖誕假諗住去邊玩呀？你成世人收過最正嘅聖誕禮物係咩呀？你想聖誕老人送咩禮物俾你呀？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>When was the last time you donated money?</english>
+      <jyutping>nei5 soeng5 ci3 gyun1 cin2 hai6 gei2 si4?</jyutping>
     </entry>
     <entry>
       <cantonese>你覺得你喺倫敦每日淨係用五英鎊生唔生活到？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Do you think you could live in London on just five pounds a day?</english>
+      <jyutping>nei5 gok3 dak1 nei5 hai2 leon4 deon1 mui5 jat6 zing6 hai6 jung6 ng5 jing1 bong2 saang1 m4 saang1 wut6 dou2?</jyutping>
     </entry>
     <entry>
       <cantonese>你覺得可以做啲咩嚟減低倫敦嘅空氣污染呢？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>What do you think can be done to reduce air pollution in London?</english>
+      <jyutping>nei5 gok3 dak1 ho2 ji5 zou6 di1 me1 lai4 gaam2 dai1 leon4 deon1 ge3 hung1 hei3 wu1 jim6 ne1?</jyutping>
     </entry>
     <entry>
       <cantonese>發展經濟重要啲吖，定係保護環境重要啲？</cantonese>
-      <english></english>
-      <jyutping></jyutping>
+      <english>Is developing the economy more important, or is protecting the environment more important?</english>
+      <jyutping>faat3 zin2 ging1 zai3 zung6 jiu3 di1 aa1, ding6 hai6 bou2 wu6 waan4 ging2 zung6 jiu3 di1?</jyutping>
     </entry>
-  </intermediate>
+    <entry>
+      <cantonese>有雞先定有蛋先？</cantonese>
+      <english>Which came first, the chicken or the egg?</english>
+      <jyutping>jau5 gai1 sin1 ding6 jau5 daan2 sin1?</jyutping>
+    </entry>
+</intermediate>
+
 
 
 </prompts>
