@@ -2,3 +2,5 @@
 - [ ] check prompts should have max 20 entries per level
 - [ ] check prompts pinyin matches
 - [ ] check prompts whitespace
+- [ ] check line breaks
+- [ ] check max three questions per prompt
