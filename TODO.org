@@ -1,0 +1,4 @@
+* TODO add sch rules for prompts XML
+- [ ] check prompts should have max 20 entries per level
+- [ ] check prompts pinyin matches
+- [ ] check prompts whitespace
